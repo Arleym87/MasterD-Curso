@@ -8,11 +8,8 @@
     <meta name="locality" content="Lisboa, Portugal, Europa">
     <meta name="category" content="Portuguese, Portugal, Formação em Webdesign">
     <title>estudos MasterD</title>
-    <style>
-      div p{
-        background-color: yellow;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <hi>Curso de FullStack na MasterD</hi>
@@ -367,7 +364,7 @@ Na lista seguinte podemos ler os atributos possíveis de um formulário.
       <hr>
       <hr>
       <h2> descendente selector css</h2>
-      <p>O selector descendente corresponde a todos os elementos descendentes de um elemento especifico</p>
+      <p id="indent">O selector descendente corresponde a todos os elementos descendentes de um elemento especifico</p>
 
       <div>
         <p> Paragrafo 1 da div</p>
@@ -377,5 +374,105 @@ Na lista seguinte podemos ler os atributos possíveis de um formulário.
       <p>Paragrafo 4 fora da div<p>
       <p>Paragrafo 5 fora da div</p>
       <p>Paragrafo 6 fora da div</p>
+      <hr>
+      <h1 id="test">A propriedade direction</h1>
+<p class="text_ltr">Este texto é escrito da esquerda para a direita.</p>
+<p class="text_rtl">Este texto é escrito da direita para a esquerda.</p>
+<hr>
+<hr>
+<h1> Espaçamento entre linhas </h1>
+<h2> line-height default.</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex aliquam, cursus nulla eu, fermentum magna. Sed feugiat bibendum metus vel facilisis. Cras ut ullamcorper lorem. Suspendisse nec tortor tincidunt, lobortis magna et, vulputate nunc. Phasellus pharetra maximus pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce blandit dolor at ultrices varius. Sed maximus feugiat lorem, tincidunt scelerisque justo venenatis ac. Aliquam erat volutpat. Quisque cursus laoreet volutpat. Curabitur sodales arcu sit amet nulla cursus, in volutpat nisl varius.</p>
+
+<h2> line-height 0.5px:</h2>
+
+<p class="texto-small">Pellentesque commodo dui ut augue vulputate, dignissim gravida nisi ullamcorper. Fusce sed ultrices ante. Vestibulum vel auctor urna, tempor condimentum justo. Sed id feugiat orci, in gravida justo. Vestibulum laoreet tempor massa. Nullam venenatis sodales nisi nec pretium. Mauris consequat ante ut lorem consectetur, non eleifend felis viverra. Etiam tempor facilisis tincidunt. Nulla finibus nunc vel nibh volutpat mollis. Sed ac sapien faucibus, ullamcorper magna at, vestibulum lectus. Donec gravida tristique sagittis.
+</p>
+<h2> line-heigth 2.0px:</h2>
+
+<p class="texto-big"> Morbi in ante et ante imperdiet faucibus eget sit amet dui. Sed eu posuere neque, sed vestibulum quam. Aliquam lacinia eros sed metus fermentum, ac venenatis purus sodales. Pellentesque vel ligula magna. Maecenas at feugiat felis. Etiam tincidunt congue consequat. Suspendisse nec facilisis arcu. Morbi ut libero nunc. Ut ultrices nec lorem malesuada maximus. Nunc non ultrices lorem. Sed faucibus, velit vel auctor accumsan, dui lacus tincidunt sem, at pulvinar orci augue sit amet tellus. Vestibulum vel consequat ex. In convallis libero ullamcorper purus fermentum vestibulum. Vivamus et diam efficitur, iaculis orci non, vulputate erat. Praesent convallis laoreet ligula, id finibus erat varius ut.</p>
+
+<hr>
+<hr>
+<h1> Espaçamento entre palavras </h1>
+<h2> word-spacing default.</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex aliquam, cursus nulla eu, fermentum magna. Sed feugiat bibendum metus vel facilisis. Cras ut ullamcorper lorem. Suspendisse nec tortor tincidunt, lobortis magna et, vulputate nunc. Phasellus pharetra maximus pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce blandit dolor at ultrices varius. Sed maximus feugiat lorem, tincidunt scelerisque justo venenatis ac. Aliquam erat volutpat. Quisque cursus laoreet volutpat. Curabitur sodales arcu sit amet nulla cursus, in volutpat nisl varius.</p>
+
+<h2> word-spacing -5px.</h2>
+
+<p class="texto-small1">Pellentesque commodo dui ut augue vulputate, dignissim gravida nisi ullamcorper. Fusce sed ultrices ante. Vestibulum vel auctor urna, tempor condimentum justo. Sed id feugiat orci, in gravida justo. Vestibulum laoreet tempor massa. Nullam venenatis sodales nisi nec pretium. Mauris consequat ante ut lorem consectetur, non eleifend felis viverra. Etiam tempor facilisis tincidunt. Nulla finibus nunc vel nibh volutpat mollis. Sed ac sapien faucibus, ullamcorper magna at, vestibulum lectus. Donec gravida tristique sagittis.
+</p>
+<h2> word-spacing 20px.</h2>
+
+<p class="texto-big1"> Morbi in ante et ante imperdiet faucibus eget sit amet dui. Sed eu posuere neque, sed vestibulum quam. Aliquam lacinia eros sed metus fermentum, ac venenatis purus sodales. Pellentesque vel ligula magna. Maecenas at feugiat felis. Etiam tincidunt congue consequat. Suspendisse nec facilisis arcu. Morbi ut libero nunc. Ut ultrices nec lorem malesuada maximus. Nunc non ultrices lorem. Sed faucibus, velit vel auctor accumsan, dui lacus tincidunt sem, at pulvinar orci augue sit amet tellus. Vestibulum vel consequat ex. In convallis libero ullamcorper purus fermentum vestibulum. Vivamus et diam efficitur, iaculis orci non, vulputate erat. Praesent convallis laoreet ligula, id finibus erat varius ut.</p>
+<hr>
+<hr>
+<h1> Espaços em branco </h1>
+
+<h2> <i> white-space: normal </i> </h2>
+<p id='texto_normal'>
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+</p>
+
+
+<h2> <i> white-space: pre </i> </h2>
+<p id='texto_pre'>
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+</p>
+
+<h2> <i> white-space: nowrap </i> </h2>
+<p id='texto_nowrap'>
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+Texto. Texto. Texto. Texto. Texto. Texto. Texto. Texto. 
+</p>
+<hr>
+<hr>
+<h1> Alinhamento de texto </h1>
+<h2> Texto alinhado ao centro </h2>
+<p class="texto-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis sollicitudin felis non imperdiet. </p>
+<h2> Texto alinhado à direita </h2>
+<p class="texto-right"> Etiam suscipit rutrum facilisis. Cras justo elit, gravida et mauris ut, volutpat posuere mauris.  </p>
+<h2> Texto alinhado à esquerda </h2>
+<p class="texto-left"> Nullam faucibus dui vel diam gravida, non imperdiet est vestibulum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+<h2> Texto justificado </h2>
+<p class="texto-justify">Vivamus consectetur eros vitae lorem pretium, scelerisque gravida nisl mattis. Proin bibendum leo sit amet viverra pulvinar. 
+Aliquam vel metus quis sem efficitur auctor. Phasellus et magna sit amet diam laoreet posuere eu vel dolor.</p>
+<hr>
+<hr>
+<h1> Decoração de texto </h1>
+<p class="texto-under">Este texto está sublinhado. </p>
+<p class="texto-over"> Este texto tem uma <i>overline</i>.</p>
+<p class="texto-link"><a href="www.google.pt" target="_blank"> Este Link não está sublinhado, e é um link</a></p>
+<hr>
+<hr>
+<h1> Transformação de texto </h1>
+<p class="texto-upper">Este parágrafo tem a propriedade <i>uppercase </i> atribuida. Todas as as palavras serão transformadas em letra maiúscula.</p>
+<p class="texto-lower"> Este parágrafo tem a propriedade <i>lowercase </i> atribuida. Todas as as palavras serão transformadas em letra minúscula.</p>
+<p class="capitalize">Este parágrafo tem a propriedade <i>capitalize</i> atribuida. Todas as primeiras letras das palavras são maiúsculas.</p>
+<hr>
+<hr>
+
 </body>
 </html>

@@ -1,0 +1,82 @@
+body{
+    background-color:#e6ffff;
+    font-family: Arial, sans-serif;
+}
+div p{
+        background-color: yellow;
+      }
+#test{
+  color: rgb(40, 239, 166);
+  font-size: 40px;
+}      
+p.text_ltr {
+  direction: ltr;
+}p.text_rtl {
+  direction: rtl;
+}
+#indent{
+    text-indent: 50px;
+    letter-spacing: 5px;
+}
+
+p.texto-small {
+  line-height: 0.5;
+}
+
+p.texto-big {
+  line-height: 1.8;
+}
+
+
+p.texto-small1 {
+  word-spacing: -5px;
+}
+
+p.texto-big1 {
+  word-spacing: 20px;
+}
+
+
+p#texto_normal {
+   white-space: normal;
+}
+p#texto_pre {
+   white-space: pre;
+}
+p#texto_nowrap {
+   white-space: nowrap;
+}
+
+
+p.texto-center{
+  text-align: center;
+}
+p.texto-left {
+  text-align: left;
+}
+p.texto-right {
+  text-align: right;
+}
+p.texto-justify {
+  text-align: justify;
+}
+
+p.texto-under{
+  text-decoration: underline;
+}
+p.texto-over {
+  text-decoration: overline;
+}
+a {
+  text-decoration: none;
+}
+
+p.texto-upper{
+  text-transform: uppercase;
+}
+p.texto-lower {
+  text-transform: lowercase;
+}
+p.capitalize {
+  text-transform: capitalize;
+}
