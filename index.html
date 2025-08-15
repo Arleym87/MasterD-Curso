@@ -12,7 +12,7 @@
     
 </head>
 <body>
-    <hi>Curso de FullStack na MasterD</hi>
+    <h1>Curso de FullStack na MasterD</h1>
     <p>Este é um exemplo de página HTML simples.</p>
     <p>Aprendendo a criar páginas web com HTML.</p>
     <p>HTML é a linguagem de marcação padrão para criar páginas web.</p>
@@ -34,7 +34,7 @@
 <img src="https://www.masterd.pt/imgs/logo-md-peq.jpg" alt="logo MasterD"> 
 
 <p> Se clicar nesta imagem irá ser direcionado para outra imagem que está no computador (URL local). </p>
-	<a href="closed.jpg" target="_self"> <img src="open.jpg" alt="open sign" width="200px" height="auto"> </a>
+	<a href="closed.jpg" target="_self"> <img src="open.jpg" alt="open sign" width="200px" height="auto"></a>
 
     <a href="mailto:alguem@exemplo.com">Enviar e-mail</a>
 
@@ -46,7 +46,7 @@
    <br>
    <img src="https://www.masterd.pt/imgs/logo-md-peq.jpg" alt="imagem HTML">
 
-<img src="url" alt="texto alternativo" style="width:X ;height:Y;">
+<img src="thumb-1920-312003.jpg" id="harley" alt="texto alternativo">
 
 <img src="html_img1.jpg" alt="Imagem HTML" width="400" > 
       <br>
@@ -81,7 +81,7 @@
     <p> Fernando Pessoa </p>
 <hr>
 <p>A tag HR por defeito, será da largura do container onde está inserida. No caso de se querer estilizar, basta adicionar o atributo size para a sua espessura e width para a sua largura.</p>
-<hr size="4px" width="200">
+<hr class="tamanho-hr">
 <br>
 <br>
 <h1> Tags de formatação </h1>
@@ -126,11 +126,11 @@
 
 </table>
 
-<p>Para que a tabela fique com o aspeto mostrado na figura, terá de se atribuir um border de 1px: <table border="1px">.
+<p class="borda-tabela">Para que a tabela fique com o aspeto mostrado na figura, terá de se atribuir um border de 1px.
 
 Caso contrário, a tabela iria ficar com esta configuração:</p>
 
-<table> 
+<table class="no-border"> 
      <tr>
            <th>Nome</th>
            <th>e-mail</th>
@@ -160,7 +160,7 @@ Caso contrário, a tabela iria ficar com esta configuração:</p>
 <br>
 <br>
 <h2>Tabela com união de colunas</h2>
-    <table border="1">
+    <table>
       <tr>
         <td>Campo 1</td>
         <td>Campo 2</td>
@@ -179,7 +179,7 @@ Caso contrário, a tabela iria ficar com esta configuração:</p>
 
     <h2>Tabela com união de linhas</h2>
 
-    <table border="1">
+    <table>
       <tr>
         <td rowspan="2">União de campo</td>
         <td>Campo 2</td>
@@ -197,11 +197,11 @@ Caso contrário, a tabela iria ficar com esta configuração:</p>
 
 O modo de funcionamento é o mesmo, embora a situação possa ser complicada se o número de tabelas embutidas for elevado. Essa forma de embutimento pode ser útil para capturar tabelas de valores ou tabelas com listas.</p>
 
-<table border="1">
+<table>
       <tr>
         <td>Célula da tabela principal</td>
         <td>
-          <table border="1">
+          <table>
             <tr>
               <td>Tabela embutida, célula 1</td>
               <td>Tabela embutida, célula 2</td>
@@ -495,7 +495,47 @@ Quando se define a font-family há que ter em conta que alguns browsers podem n�
 <br>
 <strong>Nota</strong>
 Se o nome da fonte for composto por mais do que uma palavra deve ser posto entre aspas, como por exemplo “Times New Roman”.
-
+<hr>
+<hr>
+<h1 class="titulo_1"> Eu sou um titulo centrado de cor branca, com background
+vermelho.</h1>
+<h2 id="titulo_2"> E eu sou um título azul, alinhado à
+direita!</h2>
+<hr>
+<p class="paragrafo_1"> Eu sou o parágrafo 1, estou escrito da
+esquerda para a direita, tenho tamanho de letra 2 em, e as minhas
+letras estão espaçadas de 3px.</p>
+<p id="paragrafo_2"> E eu sou o parágrafo 2, estou escrito da
+direita para a esquerda, em italic, tenho tamanho de letra 4 em, e
+as minhas palavras estão espaçadas de 20px</p>
+<hr>
+<h2> O texto abaixo pode ser copiado na página <a
+href="https://www.lipsum.com/feed/html" id="lipsum"> Lipsum </a>. Se virem bem,
+este link não está sublinhado. Tem uma linha por cima...</h2>
+<p> Algumas frases do texto abaixo estão rasuradas e outras
+estão em bold. A 1a frase tem indentação de 50px. Todas as outras
+pertencem à mesma classe do parágrafo 1.</p>
+<p class="paragrafo_1"> Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Nulla est magna, posuere ut quam ut, auctor
+facilisis turpis. <p>
+<p id="frase_rasurada"> Donec id ex ac felis auctor feugiat
+quis vitae ex. In hac habitasse platea dictumst. Sed vel blandit
+lorem, vel venenatis est. </p>
+<p class="paragrafo_1">Nunc molestie eros placerat dolor
+varius, quis sagittis ipsum molestie. Praesent vulputate felis vel
+sagittis auctor.  
+Morbi bibendum nisl at est rutrum, vitae pulvinar velit tincidunt.
 </p>
+<p id="frase_bold"> Morbi posuere, augue ut sodales dapibus,
+libero eros fermentum ligula, in feugiat felis dui vitae sem.
+Aliquam vulputate risus a est rhoncus faucibus. </p>
+<hr>
+<p> Para acabar vamos:
+  <p id="texto_uppercase"> pôr esta frase toda em maiúsculas (com
+fundo amarelo)... </p>
+<p id="texto_lowercase"> esta em minúsculas (com cor de letra
+roxo)... </p>
+<p id="texto_capitalize"> e por fim, as primeiras letras desta
+frase devem ser maiúsculas (com fonte Arial de tamanho 24px).  </p>
 </body>
 </html>
