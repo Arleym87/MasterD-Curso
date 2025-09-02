@@ -12,6 +12,52 @@
     
 </head>
 <body>
+  <header class="header">
+            <nav class="nav">
+                <img
+                    src="img/linux-penguin-platform-server-system-icon-36.png"
+                    alt="Logotipo linux"
+                    class="nav__logo"
+                />
+                <ul class="nav__links">
+                    <li><a class="nav__link" href="#sobre">Sobre</a></li>
+                    <li><a class="nav__link" href="#estudos">estudos</a></li>
+                    <li><a class="nav__link" href="#contacts">Contatos</a></li>
+                </ul>
+            </nav>
+            <!--<div class="header__content">
+                <div>
+                    <h1 class="header__title">
+                        <span class="header__span-accent">Café especial</span><br />
+                        na&nbsp;biblioteca&nbsp;Triple&nbsp;Peaks
+                    </h1>
+                    <p class="header__description">
+                        Esta é nossa zona de estudo! Temos aquele cafezinho para energizar<br />
+                        você e vibrações aconchegantes para soltar a criatividade.
+                    </p>
+                    <p class="header__hours">
+                        Horários:<br />
+                        Segunda a sexta (10:00 – 19:00)<br />
+                        Sábado a domingo (11:00 - 18:00)
+                    </p>
+                </div>-->
+                <!--<img
+                    src="images/inside_coffee_shop.png"
+                    alt="Ilustração de um ambiente de café com mesas e computadores"
+                    class="header__image"
+                />
+            </div>-->
+
+            <div class="header__footer">
+                <p class="header__address">Around to Word</p>
+            </div>
+        </header>
+
+  <hr>
+  <hr>
+  <br>
+  <br>
+  
     <h1>Curso de FullStack na MasterD</h1>
     <p>Este é um exemplo de página HTML simples.</p>
     <p>Aprendendo a criar páginas web com HTML.</p>
@@ -45,12 +91,17 @@
    <br>
    <br>
    <img src="https://www.masterd.pt/imgs/logo-md-peq.jpg" alt="imagem HTML">
-
-<img src="thumb-1920-312003.jpg" id="harley" alt="texto alternativo">
-
-<img src="html_img1.jpg" alt="Imagem HTML" width="400" > 
+<br>
+<br>
+<img src="img/thumb-1920-312003.jpg" id="harley" alt="texto alternativo">
+<br>
+<br>
+<img src="img/cover.D4oR117N.jpg" alt="Imagem HTML" width="400" > 
+      <br>
       <br>
       <img src="https://www.masterd.pt/imgs/logo-md-peq.jpg" alt="imagem HTML" width="400" > 
+<br>
+<br>
 
       <h1> Poema de Fernando Pessoa, sem o uso de line break </h1>
     <img src="Fernando Pessoa.jpg" alt="Fernando Pessoa" width="200" > 
@@ -681,14 +732,206 @@ As medidas das caixas são definidas pelas propriedades width e height e podem s
 
 
 </div> 
+<hr>
+<hr>
+<h1>A propriedade <i>clip</i></h1>
+
+<h2> Imagem original </h2>
+<img src="../masterD/cover.D4oR117N.jpg">
+
+<h2> Imagem aplicando propriedade clip </h2>
+<img id="imagem-clip" src="../masterD/cover.D4oR117N.jpg">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<hr style=" border: 1px solid black;">
+<img src="../masterD/UD009172_008.jpg" id="important"
+  alt="important">
+
+<h1>Atenção
+A propriedade display é a mais importante de todas as propriedades para controlar o layout de uma página web.
+
+A propriedade display determina se e como um elemento é exibido. Todos os elementos HTML, dependendo do que são, têm uma propriedade display padrão definida. Para a grande maioria dos elementos esta propriedade assume o valor block ou inline. O display pode ainda assumir os valores none e inline-block.</h1>
+<hr>
+<hr>
+<h1>ESTILOS DE LISTAS</h1>
+<p> 
+Recorde-se que, em HTML, as listas são uma série de textos mostrados em lista descendente, ordenados (ol) ou não (ul). 
+<br>O CSS permite alterar o estilo de listas, como, por exemplo, a sua numeração, o estilo de “bullet”, inserir uma imagem como marcador de<br>
+uma lista, adicionar cores de fundo, etc. Este ponto dedicar-se-á ao estudo das propriedades que permitem realizar tais ações.</p  >​​​​​​​​​​​
+  <br>
+  <br>
+  <h2>A PROPRIEDADE LIST-STYLE-TYPE</h2>
+<p> a propriedade list-style-type é possível especificar o tipo de marcador (bullet ou numeração) de uma lista. Segue-se uma lista com alguns valores que esta propriedade pode assumir:</p>
+<br>
+<strong> disc</strong>:gera um bullet estilo disco.
+<br>
+<strong> circle</strong>: gera um bullet estilo circulo.
+<br>
+<strong> square</strong>: gera um bullet estilo quadrado.
+<br>
+<strong> decimal</strong>: gera numeração decimal.
+<br>
+<strong> decimal-leading-zero</strong>: gera numeração decimal iniciando no zero.
+<br>
+<strong> lower-roman</strong>: gera numeração romana minúscula.
+<br>
+<strong> upper-roman</strong>:gera numeração romana maiúscula.
+<br>
+<strong> lower-greek</strong>: gera letra grega minúscula.
+<br>
+<strong> lower-latin</strong>: gera letra latina minúscula.
+<br>
+<strong> upper-latin</strong>: gera letra latina maiúscula.
+<br>
+<strong> armenian</strong>: gera letra arménia.
+<br>
+<strong> georgian</strong>: gera letra georgiana.
+<br>
+<strong> lower-alpha</strong>: gera letra alfabeto minúscula.
+<br>
+<strong> upper-alpha</strong>: gera letra alfabeto maiúscula.
+<br>
+<strong> none</strong>: não mostra bullet nem numeração.</h2>
+<br>
+<br>
+<h2>Listas - A propriedade <i>list-style-type</i></h2>
+<p>Exemplos de listas não ordenadas:</p>
+<ul class="a">
+  <li>bullet circle 1</li>
+  <li>bullet circle 2</li>
+  <li>bullet circle 3</li>
+</ul>
+<ul class="b">
+  <li>bullet square 1</li>
+  <li>bullet square 2</li>
+  <li>bullet square 3</li>
+</ul>
+<ul class="e">
+  <li>bullet disc 1</li>
+  <li>bullet disc 2</li>
+  <li>bullet disc 3</li>
+</ul>
+
+<p>Exemplos de listas não ordenadas:</p>
+<ol class="c">
+  <li>numeração upper-roman 1</li>
+  <li>numeração upper-roman 2</li>
+  <li>numeração upper-roman 3</li>
+</ol>
+<ol class="d">
+  <li>numeração lower-alpha 1</li>
+  <li>numeração lower-alpha 2</li>
+  <li>numeração lower-alpha 3</li>
+</ol>
+<ol class="f">
+  <li>numeração lower-greek 1</li>
+  <li>numeração lower-greek 2</li>
+  <li>numeração lower-greek 3</li>
+</ol>
+<ol class="g">
+  <li>letras Georgiana 1</li>
+  <li>letras Georgiana 2</li>
+  <li>letras Georgiana 3</li>
+</ol>
+<br>
+<br>
+<h1>Estilização de listas:</h1>
+<div class="box">
+<ol>
+  <li class="roman">Texto 1</li>
+  <li class="roman">Texto 2</li>
+  <li class="roman">Texto 3</li>
+</ol>
+</div>
+<ul>
+  <li class="square">Texto 1</li>
+  <li class="square">Texto 2</li>
+  <li class="square">Texto 3</li>
+</ul>
+<hr>
+<hr>
+<h1>O ATRIBUTO POSITION</h1>
+<p>Para determinar o posicionamento de um elemento recorre-se ao atributo position (posição), que pode assumir cinco valores distintos:<br> static, relative, absolute, fixed e sticky (estático, relativo, absoluto, fixo e “pegajoso”, respetivamente).<br> Consoante o valor escolhido, o elemento será posicionado de forma diferente.<br>
+<br>
+Uma vez atribuído o tipo de posicionamento do elemento, deve estabelecer-se a sua posição exata,<br> utilizando as propriedades de posição top,right, bottom e left (superior, direita, inferior e esquerda, respetivamente).<br> Estas propriedades definem a distância à qual o elemento é posicionado, e devem receber valores em qualquer unidade de medida suportada por CSS,<br> embora os mais comuns sejam ponto (pt), pixel (px) e percentagem (%).<br> Também estas propriedades funcionam de forma diferente dependendo do valor escolhido.</p>
+<br>
+<h2>Aviso</h2>
+<p>As propriedades de posição top, right, bottom e left apenas funcionam se o atributo position (static, relative, fixed, absolute ou sticky) já estiver definido.</p>
+<BR>
+  <h2>position: static;</h2>
+<div id="square1"> </div>
+<div id="square2"> </div>
+<hr>
+<hr>
+<div id="fotos_valencia">
+<img id="imag_valencia4" src="Valenciacf.svg.png" alt="Valencia4"
+width="300px" 
+height="auto">
+<img id="imag_valencia1" src="valencia1.jpg" alt="Valencia1" 
+width="300px"
+height="auto">
+<img id="imag_valencia2" src="valencia2.jpg" alt="Valencia2"
+width="300px" 
+height="auto">
+<img id="imag_valencia3" src="valencia3.jpg" alt="Valencia3"
+width="300px" 
+height="auto">
+</div>
+<hr>
+<hr>
+<div id="barcelona_fc">
+  <h1 id="wallpaper_barcelona">Barcelona Futebol Club</h1>
+  <img id="imag_barcelona" src="img/fc-barcelona-mes-que-un-club-3796.jpg" alt="Barcelona"
+width="600px" 
+height="400px">
+</div>
+<hr>
+<hr>
 
 
+ <!--<section class="content">
+      <div class="card">
+        <img class="card_image" src="linux-penguin-platform-server-system-icon-36.png" alt="pinguin linux">
+        <H2>Linux:</H2>
+        <p class="pinguin">Este é o Pinguin mascote da Linux.</p>
+      </div>
+       </section>-->
 
-
-
-
-
-
-<p id="footer"> Feito por Arley Moreira, 2025 </p>
+<hr>
+<hr>
+<!--<footer class="footer">
+  <section class="content">
+      <div class="card">
+        <img class="card_image" src="linux-penguin-platform-server-system-icon-36.png" alt="pinguin linux">
+        <H2>Linux:</H2>
+        <p class="pinguin">Este é o Pinguin mascote da Linux.</p>
+      </div>
+       </section>
+      <p class="footer-signature">Arley Moreira - May 2025</p>
+    </footer>-->
+    <footer class="footer">
+      <div class="selectwrapper">
+        <select id="footerlang" style="width: 15rem; padding: 5px; margin: 5px; auto">
+          <option value="es" select>Español</option>
+          <option value="en" select>English</option>
+          <option value="de" select>Deutsch</option>
+          <option value="fr" select>Français</option>
+          <option value="it" select>Italiano</option>
+          <option value="pt" select>Portuguese</option>
+        </select>
+      </div>
+      <p class="footer-signature">Arley Moreira - August-2025 - Cusros de FullStack - MasterD Portugal</p>
+      <section class="content">
+        <img src="img/linux-penguin-platform-server-system-icon-36.png" alt="pinguin linux" class="card_image">
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
