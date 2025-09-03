@@ -156,14 +156,14 @@ p.capitalize {
 
 
 .titulo_1{
-   text‐align:center;
-   background‐color: rgb(8, 8, 8);
-   color: rgb(235, 5, 5);
+   text-align:center;
+   background-color: rgb(248, 3, 3);
+   color: rgb(248, 246, 246);
    }
     
   #titulo_2{
-text‐align:right;
-color: #3950a3;
+text-align: right;
+color: #25e90b;
 font‐family: verdana;
 font‐size: 30px;
 }
@@ -399,39 +399,36 @@ padding:10px;
   height: 200px;
   border: 3px solid #fc0339;
 }
+.borda-tabela{
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+}
 .fotos_valencia{
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
   border-radius: 30px;
-  border-color: #2321FF;
+  width: 100%;
+  height: auto;
 }
-
 .img_valencia1{
-position:relative;
-z-index: -1;
+margin: auto;
+border-radius: 30px;
 }
 
 .img_valencia2{
-  margin-top:50px;
-margin-right:200px;
-margin-bottom:100px;
-margin-left:10px;
-border:1px solid red;
+margin: auto;
+border-radius: 30px;
 }
 .img_valencia3{
-  margin-top:100px;
-margin-right:50px;
-margin-bottom:50px;
-margin-left:200px;
-border:1px solid red;
+margin: auto;
+border-radius: 30px;
 }
 .img_valencia4{
-position:relative;
-z-index: -1;
+width: 50px;
+height: auto;
 }
+
 #imag_barcelona{
   display: block;
   margin-left: auto;
@@ -447,90 +444,6 @@ z-index: -1;
   font-size: 40px;
   color: white;
 }
-
-/*A PROPRIEDADE LINE-HEIGHT */
-div.lh_10px {
-  line-height: 10px;
-}
-div.lh_10px {
-  line-height: 30px;
-}
-div.lh_05cm {
-  line-height: 0.5cm;
-}
-div.lh_1cm {
-  line-height: 1cm;
-}
-div.lh_05 {
-  line-height: 0.5;
-}
-div.lh_2 {
-  line-height: 2;
-}
-
-/*OPACIDADE APLICADA A CAIXAS (div)*/
-
-div.first {
-  opacity: 0.1;
-}
-
-div.second {
-  opacity: 0.3;
-}
-
-div.third {
-  opacity: 0.6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 790px;
-  margin: 100px auto 50px;
-}
-.card{
-  width: 350px;
-  margin-bottom: 60px;
-  padding: 45px 45px 70px;
-  background: #7171f0;
-  box-shadow: 4px 4px 5px rgba(237, 59, 5, 0.4);
-}
-.card_image{
-  width: 100%;
-  margin-bottom: 25px;
-  height: 200px;
-  object-fit: contain;
-}
-.footer {
-  display: flex;
-  min-height: 300px;
-  background-color: #000;
-}
-.footer-signature{
-  font-size: 24px;
-  color: #fff;
-  margin: auto;
-  font-family: "Permanent Marker", cursive;
-}*/
-
 .footer {
   border-top: 1px solid #bbb;
   color:#888;
