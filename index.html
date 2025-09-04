@@ -7,6 +7,7 @@
     <meta name="keywords" content="palavra, termo">
     <meta name="locality" content="Lisboa, Portugal, Europa">
     <meta name="category" content="Portuguese, Portugal, Formação em Webdesign">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -982,7 +983,116 @@ Definir, na folha de estilo CSS, a regra @font-face, da seguinte forma:</p>
 <img src="img/picapau.jpeg" alt="Darth Vader">
 <p>  I am your father. </p>
 </div>
+<br>
+<br>
+<hr>
+<hr>
+<h1>O BOOTSTRAP</h1>
+<img src="img/bootstrap.jpg" alt="bootstrap">
+<p>O Bootstrap é a framework mais popular do mundo para criar sites responsivos para dispositivos móveis.<br>
+   Permite aos developers criar websites muito mais rapidamente, pois recorre a um conjunto de sintaxes compostas de comandos básicos e funções adicionais já pré-definidas.<br>
+Esta framework front-end e de código aberto, baseada em HTML e CSS, foi criada por Mark Otto e Jacob Thornton para dar resposta a uma falta de consistência devida ao uso de demasiadas bibliotecas, <br> gerando inconsistências e uma elevada manutenção. <br> O Bootstrap veio colmatar esta questão, tornando o desenvolvimento mais rápido e prático.
+<br>
+Além do tempo poupado no desenvolvimento dos websites por parte dos developers, o uso desta ferramenta melhora a experiência do utilizador,<br>
+ porque os sites criados com o Bootstrap são amigáveis e responsivos. <br> Aliás, é este o objetivo principal desta biblioteca: criar sites responsivos em que o conceito de mobile-first prevalece.</p>
+ <strong>A minha primeira página com Bootstrap!</strong>
+ <div class="container-fluid">
+      <h1>Olá Mundo!</h1>
+      <h2>Esta é a minha primeira página recorrendo ao Bootstrap.</h2>
+	  <h3>Este container é de classe <i>.container-fluid</i>.</h3>
+    </div>
+	
+	<br>
+    <!--<div class="container" Melhorar isso>
+	  <h3>Este container é de classe <i>.container</i>.</h3>
+      </div>
+      <p>O Bootstrap divide o ecrã em 12 colunas. Abaixo pode ver-se um exemplo de colunas que ocupam 12 colunas do ecrã, mas com tamanhos diferentes.</p>
+	  <div class="row">
+		<div class="col-sm-3">.col-sm-3</div>
+		<div class="col-sm-9">.col-sm-9</div>
+	  </div>  
+    </div>-->
+    <hr>
+    <hr>
 
+    <h1>Colunas Bootstrap - Alinhamento vertical</h1>
+	  <p>Neste ponto da unidade daremos alguns exemplos de alinhamento vertical de colunas, recorrendo às classes seguintes:
+    <br>
+    <br>
+     <strong> row align-items-start: alinha verticalmente as colunas no topo do container onde as mesmas estão inseridas.</strong>
+     <br>
+     <br>
+    <strong> row align-items-center: alinha verticalmente as colunas no centro do container onde as mesmas estão inseridas.</strong>
+    <br>
+    <br>
+    <strong> row align-items-end: alinha verticalmente as colunas no fim do container onde as mesmas estão inseridas.</strong></p>
+	<div class="container-colunas">
+  <div class="row align-items-start">
+    <div class="col">
+		Coluna 1 alinhada verticalmente no topo
+    </div>
+	<br>
+    <div class="col">
+		Coluna 2 alinhada verticalmente no topo
+    </div>
+    <div class="col">
+		Coluna 3 alinhada verticalmente no topo
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col">
+		Coluna 1 alinhada verticalmente no centro
+    </div>
+    <div class="col">
+		Coluna 2 alinhada verticalmente no centro
+    </div>
+    <div class="col">
+		Coluna 2 alinhada verticalmente no centro
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+		Coluna 1 alinhada verticalmente no final
+    </div>
+    <div class="col">
+		Coluna 2 alinhada verticalmente no final
+    </div>
+    <div class="col">
+		Coluna 2 alinhada verticalmente no final
+    </div>
+  </div>
+</div>
+<div class="container-horizontal">
+<div class="row justify-content-around">
+    <div class="col-4">
+      Coluna 1 utilizando a classe row justify-content-around
+    </div>
+    <div class="col-4">
+      Coluna 2 utilizando a classe row justify-content-around
+    </div>
+  </div>
+</div>
+  <br>
+  
+  <div class="row justify-content-between">
+    <div class="col-4">
+      Coluna 1 utilizando a classe row justify-content-between
+    </div>
+    <div class="col-4">
+      Coluna 2 utilizando a classe row justify-content-between
+    </div>
+  </div>
+    
+  <br>
+  
+  <div class="row justify-content-evenly">
+    <div class="col-4">
+      Coluna 1 utilizando a classe row justify-content-evenly
+    </div>
+    <div class="col-4">
+      Coluna 2 utilizando a classe row justify-content-evenly
+    </div>
+  </div>
 
 
 
@@ -1016,5 +1126,6 @@ Definir, na folha de estilo CSS, a regra @font-face, da seguinte forma:</p>
         <img src="img/linux-penguin-platform-server-system-icon-36.png" alt="pinguin linux" class="card_image">
     </footer>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>

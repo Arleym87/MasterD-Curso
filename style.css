@@ -443,6 +443,8 @@ padding:10px;
 #fotos_valencia{
   display: flex;
   width: 300px;
+  border-box:0,5px solid black;
+  justify-content: space-between;
 }
 #img_valencia1{
 border-radius: 10px;
@@ -578,6 +580,55 @@ img {
   width: 150px;
 }
 
+.container-fluid{
+			background-color: #2DA66D;
+			padding:50px;
+			}
+      .container{
+			padding:100px;
+			border:5px solid #eb0404;
+			}
+		
+		.col-sm-3{
+			background-color: #508FC2;
+			padding: 200px 20px;
+			}
+		
+		.col-sm-9{
+			background-color: #EC9695;
+			padding: 200px 20px;
+			}
+      .row{
+			height:200px;
+			background-color: #D3DF7B;
+			}
+		
+		.col{
+			background-color: #809986;
+			border: 1px solid #FDD643;
+			padding: 20px;
+		}
+    .container-colunas{
+      border: 5px solid #eb0404;
+      padding: 100px;
+    }
+   .row{
+			height:200px;
+			background-color: #D3DF7B;
+			}
+		
+		.col-3, .col-4{
+			background-color: #809986;
+			border: 1px solid #FDD643;
+			padding: 20px;
+		}
+    .container-horizontal{
+      border: 5px solid #eb0404;
+      padding: 100px;
+    }
+    .row-horizontal{
+      flex-direction: row;
+    }
 
 
 
@@ -626,7 +677,4 @@ img {
   font-size: 30px;
   color:#e91e63;
   font-family: "Permanent Marker", cursive;
-}
-#span{
-  color: black;
 }
