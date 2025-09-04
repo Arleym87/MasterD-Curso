@@ -1,6 +1,32 @@
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tinos-regular-italic {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 body {
     background-color:#f7fafa;
-    font-family: Arial, sans-serif;
+    font-family: "Tinus", serif;
+    font-size: 20px;
     border: auto;
 }
 .header {
@@ -404,30 +430,38 @@ padding:10px;
   justify-content: space-around;
   border-radius: 30px;
 }
-.fotos_valencia{
-  display: flex;
-  justify-content: space-around;
-  border-radius: 30px;
-  width: 100%;
+.valencia_fotos{
+  width: 300px;
   height: auto;
-}
-.img_valencia1{
-margin: auto;
-border-radius: 30px;
+  justify-content: space-between;
+  border-radius: 50px;
 }
 
-.img_valencia2{
-margin: auto;
-border-radius: 30px;
+
+
+/*Preciso ajustar isso !!!!*/
+#fotos_valencia{
+  display: flex;
+  width: 300px;
 }
-.img_valencia3{
-margin: auto;
-border-radius: 30px;
+#img_valencia1{
+border-radius: 10px;
 }
-.img_valencia4{
+
+#img_valencia2{
+border-radius: 50px;
+}
+#img_valencia3{
+border-radius: 150px;
+}
+#img_valencia4{
 width: 50px;
 height: auto;
 }
+/*ate aqui*/
+
+
+
 
 #imag_barcelona{
   display: block;
@@ -440,10 +474,126 @@ height: auto;
 #wallpaper_barcelona{
   text-align: center;
   background-image: linear-gradient(to right, #edbb00,#004d98,#a50044,#db0030);
-  border-radius: 30px;
   font-size: 40px;
   color: white;
 }
+
+/*div {
+  background-color: coral;
+  padding: 10px;
+  }
+para nao interferir no projeto, deixei essa div desativada.*/
+div.first {
+  opacity: 0.1;
+}
+
+div.second {
+  opacity: 0.3;
+}
+
+div.third {
+  opacity: 0.6;
+}
+
+
+/*Propriedade Box Shadow*/
+#example1 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px;
+	width:50%;
+}
+
+#example2 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px #a5e5fa;
+	width:50%;
+}
+
+#example3 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px 5px #a5e5fa;
+	width:50%;
+}
+
+#example4 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px 5px 10px #a5e5fa;
+	width:50%;
+
+}
+#example5 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 5px #639db0, 10px 10px #f2dc8a, 15px 15px #e66c6a;
+	width:50%;
+}
+.shadow_text {
+  text-shadow: 2px 2px 8px #e66c6a;
+}
+
+
+img {
+	width: 300px;
+	}
+#img1{
+	border-radius: 10px;
+	}
+#img2{
+	border-radius: 50px;
+	}
+#img3{
+	border-radius: 150px;
+	}
+
+  .thumbnail {
+  width: 150px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  width: 150px;
+}
+.thumbnail1 {
+  width: 150px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 5px;
+  width: 150px;
+}
+.thumbnail2 {
+  width: 150px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  padding: 5px;
+  width: 150px;
+}
+.thumbnail3 {
+  width: 150px;
+  border: 1px solid #ddd;
+  border-radius:150px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
   border-top: 1px solid #bbb;
   color:#888;
@@ -469,4 +619,14 @@ height: auto;
   margin-bottom: 25px;
   height: 200px;
   object-fit: contain;
+}
+.footer-coracao{
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  color:#e91e63;
+  font-family: "Permanent Marker", cursive;
+}
+#span{
+  color: black;
 }

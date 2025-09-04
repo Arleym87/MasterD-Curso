@@ -7,6 +7,9 @@
     <meta name="keywords" content="palavra, termo">
     <meta name="locality" content="Lisboa, Portugal, Europa">
     <meta name="category" content="Portuguese, Portugal, Formação em Webdesign">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>estudos MasterD</title>
     <link rel="stylesheet" href="style.css">
     
@@ -848,20 +851,14 @@ Uma vez atribuído o tipo de posicionamento do elemento, deve estabelecer-se a s
 <div id="square2"> </div>
 <hr>
 <hr>
-<div class="fotos_valencia">
-<img class="imag_valencia4" src="img/Valenciacf.svg.png" alt="Valencia4"
-width="300px" 
-height="auto">
-<img class="imag_valencia1" src="img/valencia1.jpg" alt="Valencia1" 
-width="300px"
-height="auto">
-<img class="imag_valencia2" src="img/valencia2.jpg" alt="Valencia2"
-width="300px" 
-height="auto">
-<img class="imag_valencia3" src="img/valencia3.jpg" alt="Valencia3"
-width="300px" 
-height="auto">
+<section id="valencia_fotos">
+<div id="fotos_valencia">
+<img id="imag_valencia1" src="img/valencia1.jpg" alt="Valencia1" width="300px"; height="auto">
+<img id="imag_valencia2" src="img/valencia2.jpg" alt="Valencia2" width="300px"; height="auto">
+<img id="imag_valencia3" src="img/valencia3.jpg" alt="Valencia3" width="300px"; height="auto">
+<img id="imag_valencia4" src="img/Valenciacf.svg.png" alt="Valencia4" width="300px"; height="auto">
 </div>
+</section>
 <hr>
 <hr>
 <div id="barcelona_fc">
@@ -914,6 +911,93 @@ de 2 à propriedade line-height.</div>
 <div class="second"><p>opacity 0.3</p></div>
 <div class="third"><p>opacity 0.6</p></div>
 <div><p>opacity 1 (default)</p></div>
+<hr>
+<hr>
+<h1>A propriedade box-shadow</h1>
+
+<h2>box-shadow simples</h2>
+<div id="example1">
+  <p>Esta div tem deslocamento horizontal de 5 px e deslocamento vertical de 10 px. A cor da sombra será a mesma da do texto.</div>
+
+<h2>box-shadow com cor</h2>
+<div id="example2">
+  <p>Esta div tem deslocamento horizontal e vertical de 5 px e 10 px, respectivamente e foi atribuida uma cor à sombra.</p>
+</div>
+
+<h2>box-shadow com cor e blur</h2>
+<div id="example3">
+  <p>Esta div é similar à anterior mas foi-lhe atribuido um blur de 5px à sua sombra.</p>
+</div>
+
+<h2>box-shadow com cor e blur</h2>
+<div id="example4">
+  <p>Esta div é similar à anterior e além do blur foi-lhe atribuido um valor de spread de 10px.</p>
+</div>
+<br>
+<br>
+
+<strong>Para atribuir múltiplas sombras a um elemento, deve ser adicionada uma lista de sombras separadas por vírgulas.</strong>
+<br>
+<br>
+<h2>box-shadow Multiplas Sombras</h2>
+<div id="example5">
+  <p>Esta DIV multiplas sombras</p>
+</div>
+<br>
+<br>
+<h1>A propriedade text-shadow</h1>
+
+<h2 class="shadow_text">text-shadow com efeito blur</h2>
+<hr>
+<hr>
+<h1>Estilização de imagens - A propriedade border-radius</h1>
+<h2>Abaixo pode ver-se a mesma imagem com valores de border-radius diferentes. Quanto maior o valor deste atributo mais arredondados serão os seus cantos.</h2>
+<img src="img/dartvader.jpg" alt="Darth Vader">
+<img id="img1" src="img/dartvader.jpg" alt="Darth Vader">
+<img id="img2" src="img/dartvader.jpg" alt="Darth Vader">
+<img id="img3" src="img/dartvader.jpg" alt="Darth Vader">
+<br>
+<br>
+<h1>Estilização de imagens - Thumbnail </h1>
+
+<h2>Abaixo pode ver-se uma imagem tipo thumbnail. Para tal, foi usada a propriedade border.</h2>
+
+<img class="thumbnail" src="img/dartvader.jpg" alt="Darth Vader">
+<img class="thumbnail1" src="img/dartvader.jpg" alt="Darth Vader">
+<img class="thumbnail2" src="img/dartvader.jpg" alt="Darth Vader">
+<img class="thumbnail3" src="img/dartvader.jpg" alt="Darth Vader">
+<br>
+<br>
+<hr>
+<hr>
+<h1>WEBFONTS</h1>
+<p>Muitas vezes, em web design, existe a necessidade de utilizar fontes de letras que não estão instaladas no computador do web designer.<br>
+Para tal, o arquivo destas fontes terá de ser incluído no servidor local, bastando para isso o download da fonte e a sua <br>colocação na pasta das fontes do computador.<br>
+Em CSS, estas fontes são definidas com a regra @font-face. <br>
+Existem vários tipos de formato de fontes, entre eles, TTF, OTF, WOFF, SVG, EOT, etc. No entanto há que ter em atenção que nem todos os browsers suportam todo o tipo de fontes.</p>
+<p>Para usar a fonte pretendida deve proceder da seguinte forma: <br>
+Copiar a fonte para o arquivo local e dar-lhe um nome e extensão suportada pelo browser. É recomendado que este nome seja em letras minúsculas para <br> evitar possíveis incompatibilidades com os navegadores, nomeadamente, com o Internet Explorer.<br>
+Definir, na folha de estilo CSS, a regra @font-face, da seguinte forma:</p>
+<div class="picapaufont">
+<img src="img/picapau.jpeg" alt="Darth Vader">
+<p>  I am your father. </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <footer class="footer">
@@ -928,7 +1012,7 @@ de 2 à propriedade line-height.</div>
         </select>
       </div>
       <p class="footer-signature">Arley Moreira - August-2025 - Cusros de FullStack - MasterD Portugal</p>
-      <section class="content">
+        <p class="footer-coracao">Make with <span>&hearts;</span> in Azores-Portugal</p>
         <img src="img/linux-penguin-platform-server-system-icon-36.png" alt="pinguin linux" class="card_image">
     </footer>
     <script src="script.js"></script>
